@@ -1,10 +1,10 @@
 const CACHE_NAME = 'da1u03h-site-v1';
 const ASSETS = [
   '/',
-  '/index.html',// اگر فایل JS داری
-  '/Da1u03h_icon_192.png'
-  '/Da1u03h_icon_512.png'// آیکون‌ها رو هم کش کن
-];
+  '/index.html',
+  '/Da1u03h_icon_192.png',
+  '/Da1u03h_icon_512.png'
+]; // اینجا حتماً باید این پرانتز بسته باشه و کاماها رعایت شده باشن
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)));
