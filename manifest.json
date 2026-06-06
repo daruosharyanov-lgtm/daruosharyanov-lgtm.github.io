@@ -1,20 +1,20 @@
 {
   "name": "سایت شخصی Da1u03h", 
   "short_name": "Da1u03h",
-  "start_url": "/", 
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#D4AF37",
   "icons": [
-  {
-    "src": "/Da1u03h_icon_192.png", 
-    "sizes": "192x192",
-    "type": "image/png"
-  },
-  {
-    "src": "/Da1u03h_icon_512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }
-]
-
+    {
+      "src": "/Da1u03h_icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Da1u03h_icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
